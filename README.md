@@ -1,6 +1,6 @@
 # birthday_card_app
 
-A new Flutter project.
+My first Flutter project in my learning process.
 
 ## Getting Started
 
