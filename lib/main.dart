@@ -25,6 +25,7 @@
 
 // Second Solution (Best)
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 void main() {
   runApp(const BirthdayCardApp());
@@ -34,15 +35,17 @@ class BirthdayCardApp extends StatelessWidget {
   const BirthdayCardApp({super.key});
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Row(
           children: [
             Expanded(
               child: Image(
-                image: AssetImage('assets/images/BirthdayCardApp.png'),
-                fit: BoxFit.cover,
+                image: const AssetImage('assets/images/BirthdayCardApp.png'),
+                height: MediaQuery.of(context).size.height,
+                width: MediaQuery.of(context).size.width,
+                fit: BoxFit.fill,
               ),
             ),
           ],
