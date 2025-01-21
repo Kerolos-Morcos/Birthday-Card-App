@@ -12,7 +12,7 @@
 //     return const MaterialApp(
 //     debugShowCheckedModeBanner: false,
 //       home: Scaffold(
-//         backgroundColor:  Color(0xFFD3BFD6),
+//         backgroundColor: Color(0xFFD3BFD6),
 //         body: Center(
 //           child: Image(
 //             image: AssetImage('assets/images/BirthdayCardApp.png'),
